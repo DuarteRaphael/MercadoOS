@@ -1,0 +1,13 @@
+{
+  "name": "@mercados/api",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "echo 'No api dev configured yet'",
+    "build": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "test": "echo 'No api tests configured yet'",
+    "format": "prettier --write .",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  }
+}
