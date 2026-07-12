@@ -3,11 +3,21 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "dev": "echo 'No api dev configured yet'",
-    "build": "tsc -p tsconfig.json --noEmit",
+    "dev": "nest start --watch",
+    "build": "nest build",
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
     "test": "echo 'No api tests configured yet'",
     "format": "prettier --write .",
     "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.3.4",
+    "@nestjs/core": "^10.3.4",
+    "@nestjs/platform-express": "^10.3.4",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.3.4"
   }
 }

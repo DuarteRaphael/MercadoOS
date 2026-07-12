@@ -5,9 +5,18 @@
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc -p tsconfig.json --noEmit",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate:dev": "prisma migrate dev --name init",
+    "prisma:studio": "prisma studio",
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
     "test": "echo 'No database tests configured yet'",
     "format": "prettier --write .",
     "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.16.1"
+  },
+  "devDependencies": {
+    "prisma": "^5.16.1"
   }
 }

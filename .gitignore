@@ -12,3 +12,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 .vscode/
+.next/
+**/*.tsbuildinfo
+.turbo/
+packages/database/dev.db
